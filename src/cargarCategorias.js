@@ -1,1 +1,3 @@
-console.log('cargando...');
+import dataCategorias from './datos/categorias';
+
+console.log (dataCategorias)
