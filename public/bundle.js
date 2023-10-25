@@ -433,7 +433,7 @@ var data = {
 
 const { fotos } = data;
 
-({
+var dataCategorias = {
 	categorias: [
 		{ id: 'america', nombre: 'America', numeroFotos: fotos['america'].length, imagenPortada: './img/america.jpg' },
 		{ id: 'europa', nombre: 'Europa', numeroFotos: fotos['europa'].length, imagenPortada: './img/europa.jpg' },
@@ -447,4 +447,6 @@ const { fotos } = data;
 			imagenPortada: './img/antartida.jpg',
 		},
 	],
-});
+};
+
+console.log (dataCategorias);
