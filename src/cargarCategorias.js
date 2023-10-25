@@ -1,3 +1,3 @@
 import dataCategorias from './datos/categorias';
-
-console.log (dataCategorias)
+const  {categorias} = dataCategorias;
+console.log(categorias);
