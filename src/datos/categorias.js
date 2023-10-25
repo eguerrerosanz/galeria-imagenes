@@ -1,4 +1,4 @@
-import data from './fotos';
+import data from './fotos'
 const { fotos } = data;
 
 export default {
