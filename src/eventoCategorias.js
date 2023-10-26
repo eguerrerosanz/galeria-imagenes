@@ -12,6 +12,9 @@ contenedorCategorias.addEventListener('click', (e) => {
         
         const categoriaActiva = e.target.closest('a').dataset.categoria;
         const fotos = dataFotos.fotos[categoriaActiva];
+        const carousel = galeria.querySelector('.galeria__carousel-slides');
+
+        carousel.innerHTML = '';
         
         fotos.forEach((foto) => {
             const slide = `
