@@ -22,5 +22,7 @@ contenedorCategorias.addEventListener('click', (e) => {
             galeria.querySelector('.galeria__carousel-slides').innerHTML += slide;
         });
 
+        galeria.querySelector('.galeria__carousel-slide').classList.add('galeria__carousel-slide--active');
+
     }
 });
