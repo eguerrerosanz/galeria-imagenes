@@ -1,5 +1,7 @@
+import dataFotos from "./datos/fotos";
 const contenedorCategorias = document.getElementById('categorias');
 const galeria = document.getElementById('galeria');
+
 
 
 contenedorCategorias.addEventListener('click', (e) => {
